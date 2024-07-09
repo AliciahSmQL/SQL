@@ -7,5 +7,5 @@
 
 *Find a list of SQL scenarios below!*
 
-[*Superstore Database*](https://github.com/AliciahSmQL/SQL/blob/main/Superstore%20Database)
-[*Fortune 500 Analysis*](https://github.com/AliciahSmQL/SQL/blob/main/Fortune%20500%20Analysis)
+[*Superstore Database*](https://github.com/AliciahSmQL/SQL/blob/main/Superstore%20Database) <br />
+[*Fortune 500 Analysis*](https://github.com/AliciahSmQL/SQL/blob/main/Fortune%20500%20Analysis) <br />
