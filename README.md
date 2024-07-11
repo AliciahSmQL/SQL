@@ -10,3 +10,4 @@
 [*Superstore Database*](https://github.com/AliciahSmQL/SQL/blob/main/Superstore%20Database) <br />
 [*Fortune 500 Analysis*](https://github.com/AliciahSmQL/SQL/blob/main/Fortune%20500%20Analysis) <br />
 [*Netflix Analytics (PostgreSQL in SQL Fiddle)*](https://github.com/AliciahSmQL/SQL/blob/main/Netflix%20Analytics%20(PostgreSQL%20in%20SQL%20Fiddle)) <br />
+[*Customer & Order Analytics*](https://github.com/AliciahSmQL/SQL/blob/main/Customer%20%26%20Order%20Analytics) <br />
