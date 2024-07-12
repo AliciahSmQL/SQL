@@ -49,7 +49,7 @@ FROM BIT_DB.Spotifydata
 ORDER BY duration_ms desc
 LIMIT 1;
 
- #What's the average danceability for the 10 most popular songs? *(using CTE)*
+ #What's the average danceability for the 10 most popular songs? [*(using CTE)*]
 With avg_danceability_cte as 
 (SELECT s.artist_name, avg(s.danceability) dance, s.popularity
 FROM Spotifydata s 
