@@ -81,12 +81,12 @@ SELECT COUNT(healthcare_benefits) as healthcare_recipients
 FROM fortune_companies
 WHERE healthcare_benefits = 1;
 
-4. Which healthcare company has the highest employee tenure on average?:
+#4. Which healthcare company has the highest employee tenure on average?:
 SELECT company_name, MAX(avg_employee_tenure) as max_employee_tenure
 FROM fortune_companies
 WHERE industry="Healthcare";
 
-5. Which companies give their employees at least 23 days of paid time off AND at least 10 weeks off for maternity leave?:
+#5. Which companies give their employees at least 23 days of paid time off AND at least 10 weeks off for maternity leave?:
 SELECT company_name, paid_time_off_days, maternity_leave_weeks
 FROM fortune_companies
 WHERE paid_time_off_days >= 23
