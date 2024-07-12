@@ -49,6 +49,16 @@ FROM BIT_DB.Spotifydata
 ORDER BY duration_ms desc
 LIMIT 1;
 
+ #What's the average danceability for the 10 most popular songs? *(using CTE)*
+With avg_danceability_cte as 
+(SELECT s.artist_name, avg(s.danceability) dance, s.popularity
+FROM Spotifydata s 
+GROUP BY s.artist_name, popularity)
+
+SELECT artist_name, dance, popularity 
+FROM avg_danceability_cte
+ORDER BY popularity desc; 
+
 #List all the songs written by an Olivia.
 SELECT track_name
 FROM BIT_DB.Spotifydata
